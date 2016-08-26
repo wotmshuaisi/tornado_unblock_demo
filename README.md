@@ -11,6 +11,6 @@ CREATE TABLE `user` (
 ## 配置
 HOST, DB, USER, PASSWD = 'your_host', 'your_db', 'your_user', 'your_passwd'
 ## 压测
-同步: ab -n 200 -c 50 http://127.0.0.1:8060/sync/name
-异步: ab -n 200 -c 50 http://127.0.0.1:8060/async/name
-多线程: ab -n 200 -c 50 http://127.0.0.1:8060/supersync/name
+*> 同步: ab -n 200 -c 50 http://127.0.0.1:8060/sync/name
+*> 异步: ab -n 200 -c 50 http://127.0.0.1:8060/async/name
+*> 多线程: ab -n 200 -c 50 http://127.0.0.1:8060/supersync/name
